@@ -1,0 +1,198 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "幼圆";
+}
+
+html{
+    background: #f2f2f2;
+}
+
+body{
+    width: 1130px;
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/*===================头部=====================*/
+header{
+    height: 60px;
+}
+
+.logo{
+    width: 200px;
+    height: 60px;
+    color: #560b1f;
+    font-size: 28px;
+    line-height: 200%;
+    background: lightgrey;
+    text-align: center;
+    display: inline-block;
+}
+
+.welcome{
+    display: inline-block;
+    font-size: 26px;
+    color: #560b1f;
+    position: relative;
+    left: 100px;
+    top: 0px;
+}
+
+/*=================身体=======================*/
+article{
+    width: 100%;
+    background: white;
+}
+
+.information{
+    width: 100%;
+    position: relative;
+    background-color: white;
+    height: 210px;
+    border: 1px solid lightgrey;
+}
+
+.information div{
+    width: 210px;
+    height: 35px;
+    background-color: #560b1f;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    line-height: 180%;
+    border-radius: 8px ;
+    box-shadow: 2px 3px 2px grey;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.information form{
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    font-size: 18px;
+}
+
+.information textarea{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    left: 100px;
+}
+
+.add{
+    position: absolute;
+    top: 85px;
+}
+
+/*=======================================*/
+.shoppingmsg{
+    width: 100%;
+    height: 380px;
+    border: 1px solid lightgrey;
+}
+
+.shoppingmsg div{
+    width: 210px;
+    height: 35px;
+    background-color: #560b1f;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    line-height: 180%;
+    border-radius: 8px ;
+    box-shadow: 2px 3px 2px grey;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.shoppingmsg textarea{
+    width: 1050px;
+    height: 200px;
+    position: relative;
+    left: 40px;
+    top: 50px;
+    font-size: 16px;    
+}
+
+.confirm{
+    position: absolute;
+    left: 850px;
+    top: 600px;
+}
+
+.backindex{
+    position: absolute;
+    left: 950px;
+    top: 600px;
+}
+
+.btnshow{
+    width: 65px;
+    height: 30px;
+    background: lightgrey;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px grey;
+    text-align: center;
+    line-height: 120%;
+    letter-spacing: 6px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #560b1f;
+    cursor: pointer;
+}
+
+/*===============弹框背景================*/
+.conbg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    opacity: 0.3;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.alertconfirm{
+    width: 500px;
+    height: 300px;
+    background: #FFF;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -300px;
+    display: none;
+}
+
+.thanks{
+    font-family: "华文琥珀";
+    color: #560b1f;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.success{
+    position: absolute;
+    left: 160px;
+    top: 80px;
+    color: #560b1f;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#jumphint{
+    color: #560b1f;
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    font-size: 20px;
+}

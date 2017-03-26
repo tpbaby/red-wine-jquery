@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>category</title>
+    <link rel="stylesheet" href="css/infomsg.css">
+    <link rel="stylesheet" href="css/clallus.css">
+</head>
+<body>
+    <!--头部，导航-->
+    <header>
+        <marquee class="maq">欢迎光临，red wine</marquee>
+        <div class="logo">logo位置</div>
+        <div class="h_search">
+            <form method="" action="" >
+                <input type="text" class="search_input" placeholder="请输入要搜索的红酒">
+                <input type="submit" class="search_submit" value="搜 索">
+            </form>
+        </div>
+    </header>
+        <!--d导航栏-->
+    <nav>
+        <img src="images/logo.png">
+        <div class="n_list">
+            <ul>
+                <a href="index.html"><li>首&nbsp;页</li></a>
+                <a href="infomsg.html"><li>红酒分类</li></a>
+                <a href=""><li>产品中心</li></a>
+                <a href=""><li>饮酒七戒</li></a>
+                <a href="emailus.html"><li>联系我们</li></a>
+            </ul>
+        </div>
+    </nav>
+    <article>
+       <!-- 左边的分类 -->
+        <div class="a_cate">
+            <ul>
+                <li id="2">梅鹿辄（Merlot）</li>
+                <li id="3">巴贝拉（Barbera）</li>
+                <li id="4">佳丽酿（Carignan）</li>
+                <li id="5">马尔贝克（Malbec）</li>
+                <li id="6">黑品乐（Pinot Noir）</li>
+                <li id="7">席拉（Syrah/Shiraz）</li>
+                <li id="8">品丽珠（Cabernet Franc）</li>
+                <li id="9">赤霞珠（Cabernet Sauvignon）</li>
+            </ul>
+        </div>
+        
+        
+        <!--盒子1--初次来这个页面显示-->
+        <!--<div class=""></div>-->
+        <div class="a_info1">
+            <div class="a_intro">red wine 为您推荐以下红酒：</div>
+            <div class="a_msg1">
+               <img src="images/1.png" class="wine_img clickpic1">
+               <div class="wine_bt">
+                   <div>
+                       <span class="span11">wine：</span>
+                       <span >长城干红</span>
+                   </div>
+                   <div>
+                       <span class="span33">price:</span>
+                       <span>￥</span>
+                       <span>120</span>
+                   </div>
+                   <div class="callus"><u><i>联系我们  ></i></u></div>
+               </div>           
+            </div>
+            
+            <div class="a_msg1">
+               <img src="images/1.png" class="wine_img clickpic1">
+               <div class="wine_bt">
+                   <div>
+                       <span class="span11">wine：</span>
+                       <span >长城干红</span>
+                   </div>
+                   <div>
+                       <span class="span33">price:</span>
+                       <span>￥</span>
+                       <span>120</span>
+                   </div>
+                   <div class="callus"><u><i>联系我们  ></i></u></div>
+               </div>         
+            </div>
+            
+            <div class="a_msg1">
+                <img src="images/1.png" class="wine_img clickpic1"">
+               <div class="wine_bt">
+                   <div>
+                       <span class="span11">wine：</span>
+                       <span >长城干红</span>
+                   </div>
+                   <div>
+                       <span class="span33">price:</span>
+                       <span>￥</span>
+                       <span>120</span>
+                   </div>
+                   <div class="callus"><u><i>联系我们  ></i></u></div>
+               </div>         
+            </div>
+        </div>
+        
+        
+        <!--盒子2--具体类别的商品(后台数据可用循环写出来，避免代码的冗余)-->
+        <div class="a_info2 msg">
+            <div class="cate_wine">
+                <img src="images/meigan/meigan1.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">梅鹿辄-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/meigan/meigan2.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">梅鹿辄-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/meigan/meigan3.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">梅鹿辄-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/meigan/meigan4.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">梅鹿辄-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/meigan/meigan5.jpg" class="clickpic1"> 
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">梅鹿辄-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/meigan/meigan6.jpg" class="clickpic1"> 
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">梅鹿辄-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>         
+            </div>
+        </div>
+        
+        
+        <!-- 盒子3---具体类别的商品(后台数据可用循环写出来，避免代码的冗余) 样式可套用上一个盒子的样式，只要class引用相同 -->
+        <div class="a_info3 msg">
+            <div class="cate_wine">
+                <img src="images/babeila/bab1.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/babeila/bab2.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/babeila/bab3.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/babeila/bab4.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/babeila/bab5.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/babeila/bab6.jpg" class="clickpic1"> 
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>         
+            </div>
+        </div>
+        
+        <!--盒子4-->
+        <div class="a_info4 msg">
+            <div class="cate_wine">
+                <img src="images/jialiliang/jll1.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/jialiliang/jll2.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/jialiliang/jll3.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/jialiliang/jll4.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/jialiliang/jll5.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/jialiliang/jll6.jpg" class="clickpic1"> 
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>         
+            </div>
+        </div>
+        
+        
+        <!--盒子5-->
+        <div class="a_info5 msg">
+            <div class="cate_wine">
+                <img src="images/mbk/mbk1.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/mbk/mbk2.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/mbk/mbk3.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/mbk/mbk4.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/mbk/mbk5.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/mbk/mbk6.jpg" class="clickpic1"> 
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>         
+            </div>
+        </div>
+        
+        <!--盒子6-->
+        <div class="a_info6 msg">
+            <div class="cate_wine">
+                <img src="images/heipl/heipl1.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/heipl/heipl2.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/heipl/heipl3.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/heipl/heipl4.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/heipl/heipl5.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/heipl/heipl6.jpg" class="clickpic1"> 
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>         
+            </div>
+        </div>
+        
+        
+        <!--盒子7-->
+        <div class="a_info7 msg">
+            <div class="cate_wine">
+                <img src="images/xl/xl1.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/xl/xl2.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/xl/xl3.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/xl/xl4.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/xl/xl5.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/xl/xl6.jpg" class="clickpic1"> 
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>         
+            </div>
+        </div>
+        
+        <!--盒子8-->
+        <div class="a_info8 msg">
+            <div class="cate_wine">
+                <img src="images/plz/plz1.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/plz/plz2.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/plz/plz3.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/plz/plz4.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/plz/plz5.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/plz/plz6.jpg" class="clickpic1"> 
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>         
+            </div>
+        </div>
+        
+        <!--盒子9-->
+        <div class="a_info9 msg">
+            <div class="cate_wine">
+                <img src="images/cxz/cxz1.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/cxz/cxz2.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/cxz/cxz3.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/cxz/cxz4.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/cxz/cxz5.jpg" class="clickpic1">
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>
+            </div>
+            <div class="cate_wine">
+                <img src="images/cxz/cxz6.jpg" class="clickpic1"> 
+                <span class="span1"><b>种类：</b></span><br>
+                <span class="span2">巴贝拉-1</span>
+                <span class="span3"><b>年份：</b></span>
+                <span class="span4">1998</span>
+                <span class="span5"><b>价格：</b></span>
+                <span class="span6">998</span>         
+            </div>
+        </div>
+        
+        <!--盒子10  详细介绍某一具体商品-->
+        <div class="a_info10">
+            <div class="box10_boder">
+                <span class="wine_msg">RED WINE红酒详情介绍</span>
+                <img src="images/obs8.jpg">
+            </div>
+            <div class="box10_msg">
+                <span  class="wine_name"><b>长城干红 1992年版</b></span>
+                <br>
+                <span class="wine_showmsg">&nbsp;&nbsp;&nbsp;&nbsp;【1992年产自深圳，经过半年加工之久，酿造了纯真的味道；下单满足一定数量者，可以送货上门，red wine为您服务。】</span>
+                <div class="wine_price">
+                    <span class="wine_price1">价格：</span>
+                    <span class="wine_price2">￥</span>
+                    <span class="wine_money">1200</span>
+                    <span class="wine_sales">销量:</span>
+                    <span class="wine_sales2">220</span>
+                    <span class="wine_privprice">原价：</span>
+                    <span class="wine_privprice2">￥</span>
+                    <span class="wine_privmoney"><strike>1500</strike></span>
+                    <span class="wine_reduce">已降：</span>
+                    <span class="wine_reduce1">￥</span>
+                    <span class="wine_reducemoney">300</span>
+                </div>
+                <div class="address">
+                    <span class="add1">留下您的地址，以便我们配送：</span>
+                    <br>
+                     <div class="login-textbox">
+                         <div class="select_province">
+                            <form action="" method="get" name="myform">  
+                               <select name="country" onChange="showCity();" class="select prov">  
+                                    <option>--请选择省--</option>   
+                                    <option value="安徽">安徽</option>   
+                                    <option value="北京">北京</option>    
+                                    <option value="重庆">重庆</option> 
+                                    <option value="福建">福建</option>
+                                    <option value="甘肃">甘肃</option>
+                                    <option value="广东">广东</option>
+                                    <option value="广西">广西</option>
+                                    <option value="贵州">贵州</option>
+                                    <option value="海南">海南</option>
+                                    <option value="河北">河北</option>
+                                    <option value="黑龙江">黑龙江</option>
+                                    <option value="河南">河南</option>
+                                    <option value="湖北">湖北</option>
+                                    <option value="湖南">湖南</option>
+                                    <option value="江苏">江苏</option>
+                                    <option value="江西">江西</option>
+                                    <option value="吉林">吉林</option>  
+                                    <option value="辽宁">辽宁</option> 
+                                    <option value="内蒙古">内蒙古</option> 
+                                    <option value="宁夏">宁夏</option> 
+                                    <option value="青海">青海</option> 
+                                    <option value="山东">山东</option> 
+                                    <option value="上海">上海</option> 
+                                    <option value="山西">山西</option> 
+                                    <option value="陕西">陕西</option> 
+                                    <option value="四川">四川</option> 
+                                    <option value="天津">天津</option>
+                                    <option value="新疆">新疆</option> 
+                                    <option value="西藏">西藏</option>
+                                    <option value="云南">云南</option> 
+                                    <option value="浙江">浙江</option>  
+                                </select>     
+                            </div>   
+                     </div>
+                     <div class="login-textbox">
+                        <div class="select_city">
+                            <select name="cityList"  class="select cit" onchange="showadd()">
+                                <option>--请选择所在城市或地区--</option>
+                            </select>
+                         </form> 
+                        </div>
+                     </div>
+                     <br>
+                     <span class="selnumber">请选择数量：</span>
+                     <input type="number" class="selnumber1" min="0" value="0">
+                    <a href="" class="callus1"><i>联系我们 ></i></a>
+                </div>
+            </div>
+        </div>
+    </article>
+    
+    
+    <!--  联系我们弹窗-->
+    <div class="alertbg"></div>
+    <div class="alertlogin">
+        <div class="circles">X</div>
+        <span class="alertus">欢迎光临：RED WINE</span>
+        <span class="alertcallus">联系方式一：</span>
+        <span class="atel">tel: &nbsp; 12345678909</span>
+        <span class="aaddress">address:  &nbsp; </span>
+        <span class="aaddress1">江苏省南京市江宁区宏景大道3601号</span>
+        <span class="alertcallus1">联系方式二：</span>
+        <span class="aemail">emal:</span>
+        <span><a href="emailus.html" class="emailus"><b><i>点这里发邮件给我们</i></b></a></span>
+        <div class="remove">取消</div>
+    </div>
+</body>
+<script src="js/jquery.1.7.1.js"></script>
+<script src="js/callus.js"></script>
+<script src="js/infomsg.js"></script>
+<script>
+ 
+</script>
+
+</html>

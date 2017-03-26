@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/emailus.css">
+</head>
+<body>
+    <!--头部，导航-->
+    <header>
+        <div class="logo">logo位置</div>
+        <div class="welcome"><b><i>欢迎光临RED WINE,请详细填写一下内容，以便我们联系</i></b></div>
+    </header>
+    <!--d导航栏-->
+    <article>
+        <div class="information">
+            <div>请填写您的个人信息：</div>
+            <form action="" method="">
+                <span>您的姓名：</span>
+                <input type="text" id="name" value="请填写姓名" class="name">
+                <br><br>
+                <span>联系方式：</span>
+                <input type="tel" id="tel" value="请填写手机号">
+                <br><br>
+                <span class="add" >联系地址：</span>
+                <textarea id="adda">请填写地址</textarea>
+            
+        </div>
+        <div class="shoppingmsg">
+            <div>请填写您的订购详情：</div>
+                <textarea id="order">请把您所需要的东西写给我们，我们会根据您的需要提供相应的服务。</textarea>
+                <input type="button" value="确认" class="confirm btnshow">
+                <input type="button" value="返回" class="backindex btnshow">
+            </form>
+        </div>
+    </article>
+    
+    <div class="conbg"></div>
+    <div class="alertconfirm">
+        <div class="thanks">谢谢小主光顾RED WINE，希望您购买愉快！</div>
+        <span class="success">===信息填写成功===</span>
+        <span id="jumphint">系统在 <span id="timeout"></span> 秒后将自动跳转到首页</span>
+    </div>
+</body>
+<script src="js/jquery.1.7.1.js"></script>
+<script src="js/emailus.js"></script>
+<script>
+    
+        
+</script>
+</html>

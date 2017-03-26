@@ -1,0 +1,330 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "幼圆";
+}
+
+html{
+    background: #f2f2f2;
+}
+
+body{
+    width: 1130px;
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/*===================头部=====================*/
+header{
+    height: 110px;
+}
+.maq{
+    direction: left;
+    behavior: scroll;
+    srolldelay: 10;
+    srollamount: 9;/*
+    background-color: pink;*/
+    color: #560b1f;
+}
+
+.logo{
+    width: 200px;
+    height: 60px;
+    color: #560b1f;
+    font-size: 28px;
+    line-height: 200%;
+    background: lightgrey;
+    text-align: center;
+    display: inline-block;
+}
+
+.h_search{
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    width: 800px;
+    height: 60px;/*
+    background: red;*/
+}
+
+.search_input{
+    width: 400px;
+    height: 30px;
+    border: 2px solid #560b1f;
+    position: absolute;
+    left: 180px;
+    top: 45px;
+    
+}
+
+.search_submit{
+    position: absolute;
+    left: 582px;
+    top: 45px;
+    width: 61px;
+    height: 34px;
+    background-color: #560b1f;
+    border: 2px solid #560b1f;
+    color: white;
+    font-size: 16px;
+}
+
+/*===================导航栏=========================*/
+nav{
+    width: 1130px;
+    height: 80px;
+    background-color: #560b1f;
+    position: relative;
+    margin: 0 auto;
+}
+
+.n_list{
+    display: inline-block;
+    background-color: #560b1f;
+    height: 80px;
+    width: 700px;
+    position: absolute;
+    right: 12%;
+}
+
+.n_list ul li{
+    list-style: none;
+    float: left;
+    width: 140px;
+    height: 80px;
+    font-size: 18px;
+    line-height: 450%;
+    text-align: center;
+    background-color: #560b1f;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.n_list a{
+    color: white;
+    text-decoration: none;
+}
+
+/*================轮播图片===================*/
+.a_box1{
+    width:100%;
+    height: 600px;
+    background-color: #fff;
+    position: relative;
+    margin: 0 auto;
+}
+.lb_bg{
+    width: 1130px;
+    height: 480px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    cursor: pointer;    
+
+}
+.ppt_per{
+	width: 5650px;
+	height: 480px;
+	position: absolute;
+	left: 0;
+    top: 0;
+}
+
+/*===============轮播图片的样式=============*/
+
+
+.imgcolor, .pic{
+	width: 1130px;
+	height: 480px;
+}
+
+.pic{
+    float: left;
+}
+
+.left{
+    width: 30px;
+    height: 60px;
+    background: black;
+    opacity: 0.2;
+    position: absolute;
+    left:0px;
+    top:180px;
+}
+
+.right{
+    width: 30px;
+    height: 60px;
+    background: black;
+    opacity: 0.2;
+    position: absolute;
+    right:0px;
+    top:180px;
+}
+
+.left:hover, .right:hover{
+    opacity: 0.4;
+}
+
+.selects{
+    width: 280px;
+    height:20px;
+    position: absolute;
+    left:420px;
+    bottom:2px;
+}
+
+.cc{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background: lightgrey;
+    float: left;
+    margin: 0 20px;
+}
+
+.cc.h{
+    background: grey;
+}
+
+/*==================下方图片====================*/
+.a_img{
+    margin: 0 auto;
+    width: 1130px;
+    
+}
+.a_img img{
+    margin: 0 auto;
+    width: 1130px;
+}
+
+/*==================部分商品介绍===============*/
+.a_box2{
+    width: 100%;/*
+    background-color: pink;*/
+    display: inline-block;
+   /* height: 100px;*/
+}
+
+.a_show{
+    width: 100%;
+    position: relative;
+    background: white;
+    /*height: 20px;*/
+}
+
+.wine_msg{
+    width: 100%;
+    height: 600px;
+    background: white;
+}
+
+.msg_img1{
+   /* width: 300px;
+    height: 400px;*/
+    margin-top: 35px;
+}
+
+.msg_img2, .msg_img3, .msg_img4{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;/*
+    border-bottom: 1px 2px grey;*/
+    box-shadow: 4px 6px 10px grey;
+}
+
+.msg_img2{
+    position: absolute;
+    left: 72%;
+}
+
+.msg_img3{
+    position: absolute;
+    left: 65%;
+    top: 980px;
+}
+
+.msg_img4{
+    position: absolute;
+    left: 72%;
+    top: 1180px;
+}
+/*=================分类详细信息====================*/
+
+.wine_cate{
+    background-color: #560b1f;
+    width: 100%;
+    height: 80px;
+    color: white;
+    font-size: 18px;
+}
+
+.hr1{
+    width: 90%;
+    margin-left: 2%;
+}
+
+.wine_fsize{
+    font-size: 44px;
+    font-family: "微软雅黑";
+    margin-left: 30px;
+    line-height: 150%
+}
+
+.wine_show{
+    display: inline-block;
+    width: 230px;
+    height: 320px;
+    background-color: white;
+    margin-left: 38px;
+    margin-top: 50px;
+}
+
+.wine_show{
+    color: #f2f2f2;
+}
+
+.span1, .span3{
+    text-align: center;
+    margin-left: 15%;
+}
+
+
+.wine_img{
+    width: 230px;
+    height: 250px;
+}
+
+.wine_bt{
+    width: 230px;
+    height: 70px;
+    display: inline-block;
+    margin-top: -3px;
+    background: #560b1f;
+}
+
+.callus{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5%;
+    font-size: 14px;
+    cursor: pointer;    
+}
+
+/*===========脚部========================*/
+footer{
+    width: 100%;
+    height: 60px;
+    background: #f2f2f2;
+}
+
+footer span{
+    text-align: center;
+    margin-left: 30%;
+    position: relative;
+    top:40%;
+}
+

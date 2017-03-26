@@ -1,0 +1,458 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "幼圆";
+}
+
+html{
+    background: #f2f2f2;
+}
+
+body{
+    width: 1130px;
+    position: relative;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/*===================头部=====================*/
+header{
+    height: 110px;
+}
+.maq{
+    direction: left;
+    behavior: scroll;
+    srolldelay: 10;
+    srollamount: 9;/*
+    background-color: pink;*/
+    color: #560b1f;
+}
+
+.logo{
+    width: 200px;
+    height: 60px;
+    color: #560b1f;
+    font-size: 28px;
+    line-height: 200%;
+    background: lightgrey;
+    text-align: center;
+    display: inline-block;
+}
+
+.h_search{
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    width: 800px;
+    height: 60px;/*
+    background: red;*/
+}
+
+.search_input{
+    width: 400px;
+    height: 30px;
+    border: 2px solid #560b1f;
+    position: absolute;
+    left: 180px;
+    top: 45px;
+    
+}
+
+.search_submit{
+    position: absolute;
+    left: 582px;
+    top: 45px;
+    width: 61px;
+    height: 34px;
+    background-color: #560b1f;
+    border: 2px solid #560b1f;
+    color: white;
+    font-size: 16px;
+}
+
+/*===================导航栏=========================*/
+nav{
+    width: 1130px;
+    height: 80px;
+    background-color: #560b1f;
+    position: relative;
+    margin: 0 auto;
+}
+
+.n_list{
+    display: inline-block;
+    background-color: #560b1f;
+    height: 80px;
+    width: 700px;
+    position: absolute;
+    right: 12%;
+}
+
+.n_list ul li{
+    list-style: none;
+    float: left;
+    width: 140px;
+    height: 80px;
+    font-size: 18px;
+    line-height: 450%;
+    text-align: center;
+    background-color: #560b1f;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.n_list a{
+    color: white;
+    text-decoration: none;
+}
+
+/*===============身体部分===========================*/
+.a_cate{
+    width: 250px;
+    height: 480px;
+    background-color: #560b1f;
+    display: inline-block;
+}
+
+.a_cate ul li{
+    list-style: none;
+    width: 250px;
+    height: 60px;
+    background-color: #560b1f;
+    color: #f2f2f2;
+    font-size: 16px;
+    text-align: center;
+    line-height: 400%;
+    cursor: pointer;
+}
+
+/*==================盒子1--初次来这个页面显示的内容=======================*/
+
+.a_info1, .a_info2,.a_info3,.a_info4,.a_info5,.a_info8,.a_info6,.a_info7,.a_info9, .a_info10{
+    position: absolute;
+    top: 190px;
+    display: inline-block;
+    width: 880px;
+    height: 480px;
+    background-color: white;
+   
+}
+
+
+
+.a_msg1{
+    display: inline-block;
+    width: 230px;
+    height: 320px;
+    background-color: lightblue;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 80px;
+}
+
+/*=============商品信息=========*/
+
+.a_intro{
+    color: #560b1f;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.wine_bt{
+    width: 230px;
+    height: 70px;
+    display: inline-block;
+    margin-top: -3px;
+    background: #560b1f;
+    color: #f2f2f2;
+}
+
+.span11, .span33{
+    text-align: center;
+    margin-left: 15%;
+}
+
+
+.wine_img{
+    width: 230px;
+    height: 250px;
+}
+
+.callus{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 5%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*==============盒子2===========*/
+.a_info1{
+    /*display: none; */
+}
+.a_info2{
+    /*background-color: pink;*/
+    display: none;
+}
+
+.a_info3,.a_info4,.a_info5,.a_info6,.a_info7,.a_info8,.a_info9{
+    display: none;
+}
+
+.a_info10{
+    display: none;
+}
+
+.cate_wine{
+    width: 250px;
+    height: 200px;/*
+    background-color: lightblue;*/
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.cate_wine img{
+    width: 140px;
+    height: 180px;
+    margin-top: 10px;
+    border-radius: 38px;
+    box-shadow: 3px -2px 8px grey
+}
+
+.span1{
+    position: absolute;
+    top:32px;
+    left: 152px;
+    color: #560b1f;
+}
+
+.span2{
+    position: absolute;
+    top: 60px;
+    left: 160px;
+}
+
+.span3{
+    position: absolute;
+    top: 90px;
+    left: 152px;
+    color: #560b1f;
+}
+
+.span4{
+    position: absolute;
+    top: 90px;
+    left: 195px;
+}
+
+.span5{
+    position: absolute;
+    top: 120px;
+    left: 152px;
+    color: #560b1f;
+}
+
+.span6{
+    position: absolute;
+    top: 120px;
+    left: 198px;
+}
+
+/*=================盒子10 详细介绍某一具体商品======================*/
+.box10_boder{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 35px;
+    top: 25px;
+    border: 1px solid lightgrey;
+}
+
+.wine_msg{
+    font-size: 28px;
+    position: absolute;
+    left: 10px;
+    top: 30px;
+}
+
+.a_info10 img{
+    width: 230px;
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+.box10_msg{
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 380px;
+    top: 30px;
+}
+
+.wine_name{
+    font-size: 18px;
+}
+
+.wine_showmsg{
+    width: 450px;
+    font-size: 14px;
+    position: absolute;
+    top: 30px;
+}
+
+.wine_price{
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top: 85px;
+    border-radius: 10px 10px;
+    box-shadow: 1px -1px  10px lightgrey,
+                -1px 1px  10px lightgrey;
+}
+
+.wine_price1{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.wine_price2{
+    position: absolute;
+    left: 70px;
+    top: 8px;
+    font-size: 20px;
+    color: darkred;
+}
+
+.wine_money{
+    position: absolute;
+    left: 90px;
+    top: 8px;
+    font-size: 22px;
+    color: darkred;
+}
+
+.wine_sales{
+    position: absolute;
+    left: 280px;
+    top: 10px;
+}
+
+.wine_sales2{
+    position: absolute;
+    left: 330px;
+    top: 8px;
+    font-size: 22px;
+    color: black;
+}
+
+.wine_privprice{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+
+.wine_privprice2{
+    position: absolute;
+    left: 70px;
+    top: 48px;
+    font-size: 20px;
+    color: darkred;
+}
+
+.wine_privmoney{
+    position: absolute;
+    left: 90px;
+    top: 48px;
+    font-size: 22px;
+    color: darkred;
+}
+
+
+
+.wine_reduce{
+    position: absolute;
+    left: 280px;
+    top: 50px;
+}
+
+.wine_reduce1{
+    position: absolute;
+    left: 320px;
+    top: 48px;
+    font-size: 20px;
+    color: darkred;
+}
+
+.wine_reducemoney{
+    position: absolute;
+    left: 340px;
+    top: 48px;
+    font-size: 22px;
+    color: darkred;
+}
+
+.address{
+    width: 450px;
+    height: 100px;
+    position: absolute;
+    top: 190px;
+}
+
+.add1{
+    position: absolute;
+    top: 25px;
+}
+
+/*================收货地址======================*/
+.login-textbox{
+    display: inline-block;
+    width: 180px;
+    position: relative;
+    top: 40px;
+}
+
+.select{
+    width: 180px;
+    text-align: center;
+}
+
+/*.addinfo{
+    position: absolute;
+    top: 60px;
+}*/
+
+.selnumber{
+    position: absolute;
+    top: 140px;
+}
+
+.selnumber1{
+    position: absolute;
+    left: 100px;
+    top: 130px;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.callus1{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    color: #560b1f;
+}
+
+/*==========*/
+.clickpic1{
+    cursor: pointer;
+}

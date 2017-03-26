@@ -1,0 +1,124 @@
+.alertbg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000;
+    opacity: 0.3;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.alertlogin{
+    width: 600px;
+    height: 400px;
+    background: #FFF;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -300px;
+    display: none;
+}
+
+.circles{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 6px;
+    color: lavender;
+    background: grey;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: 20px;
+    cursor: pointer;
+    float: right;
+}
+
+.alertus{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    text-align: center;
+    font-size: 32px;
+    color: #560b1f;
+    font-family: "华文琥珀"
+}
+
+.alertcallus{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.atel{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    color: #560b1f;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.aaddress{
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    color: #560b1f;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.aaddress1{
+    position: absolute;
+    top: 160px;
+    left: 180px;
+    color: #560b1f;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.alertcallus1{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey;
+}
+
+.aemail{
+    position: absolute;
+    top: 260px;
+    left: 80px;
+    color: #560b1f;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.emailus{
+    position: absolute;
+    top: 263px;
+    left: 145px;
+    color: #560b1f;
+    font-weight: 700;
+}
+
+.remove{
+    width: 80px;
+    height: 40px;
+    background-color: lightgray;
+    font-weight: 200;
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px grey;
+    position: absolute;
+    top: 300px;
+    left: 440px;
+    cursor: pointer;
+}
+
